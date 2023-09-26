@@ -1,3 +1,5 @@
+# AIM: Write a program that calculates the distance between two points P1(x1, y1) and P2(x2, y2).
+
 import math
 
 print("Enter coordinates for Point 1... ")
