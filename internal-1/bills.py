@@ -1,8 +1,3 @@
-# develop a python program to generate bills for a grocery store. How would you take care of the 
-# following:
-# item names, quantities, costs, discounts, taxes, total payable amount for each item and  total bill amount
-
-# start code
 print("Creating a bill for a grocery store")
 print("Enter the number of items to be billed")
 n = int(input())
@@ -36,8 +31,7 @@ for i in range(n):
         "total" : quantity*cost,
         "total_discount" : quantity*cost*discount,
         "total_tax" : quantity*cost*tax,
-        "total_payable" : quantity*cost*(1-discount)*(1+tax)
-    }
+        "total_payable" : quantity*cost*(1-discount)*(1+tax)}
     items["total"]+=items[item]["total_payable"]
 
 
